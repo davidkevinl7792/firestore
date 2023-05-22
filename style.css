@@ -1,0 +1,12 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit-btn{
+    left: 50%;
+    top: 10%;
+    /* margin-top: 50px; */
+}
