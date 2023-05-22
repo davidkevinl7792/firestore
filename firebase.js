@@ -1,3 +1,6 @@
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js'
+        import { getFirestore, addDoc, collection } from 'https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore.js'
+
         const firebaseApp = firebase.initializeApp({
             apiKey: "AIzaSyAZLb_WBUpdheypw4RsCnQ-hyqx30j1Xfc",
             authDomain: "petfinder-fp.firebaseapp.com",
@@ -12,14 +15,7 @@
         // firebase.initializeApp(firebaseApp);
         // import { getAuth, createUserWithEmailAndPassword } from "/node-modules/firebase/auth";
 
-        import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js'
 
-        // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
-
-
-        // Add Firebase products that you want to use
-
-        import { getFirestore, addDoc, collection } from 'https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore.js'
 
 
         const db = getFirestore(firebaseApp);
